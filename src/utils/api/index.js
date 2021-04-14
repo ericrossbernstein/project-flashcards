@@ -3,7 +3,8 @@
  * The default values is overridden by the `API_BASE_URL` environment variable.
  */
 const API_BASE_URL =
-  process.env.REACT_APP_API_BASE_URL || "http://localhost:5000";
+  "https://ericrossbernstein.github.io/project-flashcards" ||
+  "http://localhost:5000";
 console.log("api url", process.env.REACT_APP_API_BASE_URL);
 
 /**
