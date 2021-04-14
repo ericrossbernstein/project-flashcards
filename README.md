@@ -1,1 +1,1 @@
-# project-flashcards
+# Flashcards project for Thinkful
