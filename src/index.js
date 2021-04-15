@@ -7,11 +7,7 @@ dotenv.config();
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router
-      basename={
-        window.location.hostname === "localhost" ? "/" : "/project-flashcards/"
-      }
-    >
+    <Router basename="/project-flashcards/">
       <App />
     </Router>
   </React.StrictMode>,
