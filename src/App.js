@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import Layout from "./Layout";
 import "./App.css";
 
@@ -9,15 +9,13 @@ import "./App.css";
 
 function App() {
   return (
-    <HashRouter basename="/">
-      <div className="App">
-        <Switch>
-          <Route path="/">
-            <Layout />
-          </Route>
-        </Switch>
-      </div>
-    </HashRouter>
+    <div className="App">
+      <Switch>
+        <Route path="/">
+          <Layout />
+        </Route>
+      </Switch>
+    </div>
   );
 }
 
