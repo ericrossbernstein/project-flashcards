@@ -17,10 +17,10 @@ function Layout() {
           <Route exact path="/">
             <DeckList />
           </Route>
-          <Route exact path="/decks/new">
+          <Route path="/decks/new">
             <DeckCreate />
           </Route>
-          <Route exact path="/decks/:deckId/study">
+          <Route path="/decks/:deckId/study">
             <Study />
           </Route>
           <Route path="/decks/:deckId">
