@@ -2,7 +2,7 @@
 
 ## Summary
 
-Flashcard-o-matic is a web app that allows users to create, edit, and study decks of flashcards using React function components. This project created as my frontend capstone project for Thinkful's Software Engineering program. I designed a sleek and stripped-down user interface using vanilla CSS, and I organized routes and nested routes using React Router.
+Flashcard-o-matic is a web app that allows users to create, edit, and study decks of flashcards using React function components. This project was created as my frontend capstone project for Thinkful's Software Engineering program. I designed a stripped-down user interface using vanilla CSS, and I organized routes and nested routes using React Router.
 
 ## Tech Stack
 
